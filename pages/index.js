@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Itsik!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -14,6 +14,9 @@ export default function Home() {
         <Header title="Welcome to my apps!" />
         <p className="description">
           Get started by editing <code>pages/index.js</code>
+        </p>
+        <p className="additions">
+          this is a new line added by me <addition>pages/test.js</addition>
         </p>
       </main>
 
