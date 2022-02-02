@@ -25,6 +25,9 @@ export default function About() {
         <Link href="/about">
           <a>About Us</a>
         </Link>
+        <Link href="/contact">
+          <a>Contact Us</a>
+        </Link>
       </main>
 
       <Footer />

@@ -3,22 +3,20 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Link from 'next/link'
 
-export default function Home() {
+export default function Contact() {
   return (
     <div className="container">
       <Head>
-        <title>Itsik!</title>
+        <title>Contact Us</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my apps!" />
+        <Header title="Contact Us" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Get started by editing <code>pages/contact.js</code>
         </p>
-        <p className="additions">
-          this is a new line added by me <addition>pages/test.js</addition>
-        </p>
+        
         <Link href="/">
           <a>Home</a>
         </Link>
