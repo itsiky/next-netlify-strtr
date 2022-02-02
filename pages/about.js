@@ -22,7 +22,7 @@ export default function About() {
         <Link href="/">
           <a>Home</a>
         </Link>
-        <Link href="/about.js">
+        <Link href="/about">
           <a>About Us</a>
         </Link>
       </main>
